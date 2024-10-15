@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.flag-container {
+    text-align: center;
+}
+
+.flag-button {
+    font-size: 50px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.flag-button.red-border {
+    border: 5px solid red;
+}
+
+.timer {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+}
